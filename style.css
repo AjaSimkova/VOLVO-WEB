@@ -1,0 +1,94 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.list {
+  position: fixed;
+  background-color: rgba(6, 13, 49, 0.759);
+  color: white;
+  width: 100%;
+  border: 1px solid white;
+  display: flex;
+  justify-content: space-between;
+}
+.list > .list-a {
+  display: flex;
+  justify-content: flex-end;
+  margin: 10px;
+}
+
+.list-a > a {
+  color: aliceblue;
+  text-decoration: none;
+  margin: 10px;
+  padding: 5px;
+  font-size: 2rem;
+}
+.list-a a:hover {
+  color: rgb(2, 2, 16);
+}
+
+.list > .name-volvo {
+  margin-top: 2%;
+  margin-left: 5%;
+  font-size: 4rem;
+  text-align: left;
+}
+.section-one {
+  background: linear-gradient(to right, rgba(3, 3, 31, 0.955), white);
+  height: 600px;
+}
+.main-photo {
+  width: 600px;
+  height: 300px;
+  margin-inline: 10%;
+  margin-top: 10%;
+}
+
+.section-two {
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(3, 3, 31, 0.955);
+}
+
+.gal-img1 img {
+  height: 30%;
+  width: 70%;
+  border: 1px solid black;
+  margin: 10px;
+  border-radius: 5px;
+}
+.gal-img1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.section-one h1 {
+  color: rgb(3, 7, 29);
+  text-align: right;
+  margin-inline: 8rem;
+  margin-bottom: 8rem;
+  font-size: 3rem;
+}
+
+.gal-img1 h2 {
+  color: rgb(14, 12, 12);
+  position: absolute;
+  margin: 10px;
+  text-align: right;
+  font-size: 2rem;
+}
+
+.gal-img1 button {
+  padding: 15px;
+  position: relative;
+  bottom: 6rem;
+  box-shadow: 5px 5px black;
+}
